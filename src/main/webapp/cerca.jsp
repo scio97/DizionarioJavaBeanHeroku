@@ -5,7 +5,7 @@
     <body>
 		<h1>Dizionario Java Bean</h1>
 		<p>Risultato funzione:</p>
-		<jsp:useBean id="s" class="app.Cerca"/>
+		<jsp:useBean id="s" class="servlet.Cerca"/>
 		<jsp:setProperty name="s" property="risultato" param="termine" />
 		<jsp:getProperty name="s" property="risultato" />
 		<br>
